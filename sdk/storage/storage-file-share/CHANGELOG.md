@@ -4,11 +4,10 @@
 
 ### Features Added
 
-### Breaking Changes
-
-### Bugs Fixed
-
-### Other Changes
+- Added support for service version 2024-05-04.
+- Added ability to call ShareFileClient.getRangeListDiff() on a file that has been renamed.
+- Added support OAuth for interface ShareFileClient.uploadRangeFromURL().
+- Added support to return clientName property in file/directory handle properties in ShareFileClient.listHandles() and ShareDirectoryClient.listHandles().
 
 ## 12.17.0 (2023-11-09)
 
